@@ -1,0 +1,32 @@
+/* Properties which are inherited by the child element*/
+
+body{
+  font-family: Verdana;
+  font-size: larger;
+  color: rgb(153, 43, 226);
+  font-variant: small-caps;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+  /*color: yellow;
+  font-weight: 900;
+  text-align: start;*/
+}
+
+
+
+/* Properties which are not inherited by the child element */
+
+body{
+   padding-top: 10px;
+   position: inherit;
+}
+
+h1{
+  /*float: left;*/
+}
+
+
